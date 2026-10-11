@@ -2,8 +2,14 @@ spring:
   application:
     name:  MCP-Client
   profiles:
-    active: prod
-
+    active: test
+  ai:
+    openai:
+      api-key: 你的OpenAI API密钥
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-flash
 logging:
   level:
     root: info
