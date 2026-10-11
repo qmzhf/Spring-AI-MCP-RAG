@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:  MCP-Client
+  profiles:
+    active: prod
+
+logging:
+  level:
+    root: info
